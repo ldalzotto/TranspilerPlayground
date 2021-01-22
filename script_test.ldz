@@ -1,0 +1,15 @@
+l_variable = 10;
+l_variable += 1;
+l_another_variable = l_variable + 10;
+l_variable_2 = 3;
+l_variable_3 = l_variable + l_variable_2;
+l_variable = 10 + l_variable;
+
+struct TestStruct[A, B]
+{
+    def hello = () =>
+    {
+
+    };
+};
+
