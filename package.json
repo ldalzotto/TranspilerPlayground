@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc ./server.ts --watch --outDir asset/gen --sourceMap true --module commonjs",
-    "run_server": "node ./asset/gen/server.js"
+    "compile": "tsc ./transpiler_test.ts --watch --outFile asset/gen/transpiler_test.js --sourceMap true",
+    "run_server": "node ./asset/gen/transpiler_test.js"
   },
   "author": "",
   "license": "ISC",
